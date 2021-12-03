@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mayank12_dev_23188.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "mayank12_dev_23188.settings")
 
 application = get_wsgi_application()
